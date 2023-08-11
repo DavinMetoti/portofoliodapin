@@ -16,6 +16,7 @@
   --first-hue: 207;
   --sat: 90%;
   --lig: 72%;
+  --first-hue: 300;
   --second-hue: 219;
   --first-color: #157a9b;
   --first-color-alt: #1ab1aa;
@@ -708,7 +709,25 @@ body.light-theme {
   background-color: var(--container-color);
   padding: 1.25rem 1.5rem;
   border-radius: 1.5rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
+  margin-top: 0.5rem;
+  /* margin-right: 10px;
+  margin-left: 10px; */
+}
+
+.testimonial__card:hover {
+  .testimonial__card {
+    background-color: var(--container-color);
+    padding: 1.25rem 1.5rem;
+    border-radius: 1.5rem;
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
+    /* margin-right: 10px;
+    margin-left: 10px; */
+    box-shadow: 0 0 16px hsla(212, 98%, 63%, 0.705);
+  }
+
+  box-shadow: 0 0 16px hsla(212, 100%, 60%, 0.466);
 }
 
 .testimonial__img {
