@@ -18,7 +18,8 @@
   --lig: 72%;
   --second-hue: 219;
   --first-color: #157a9b;
-  --first-color-alt: #1ab1aa; /* -4% */
+  --first-color-alt: #1ab1aa;
+  /* -4% */
   --title-color: hsl(var(--second-hue), 15%, 95%);
   --text-color: hsl(var(--second-hue), 8%, 75%);
   --text-color-light: hsl(var(--second-hue), 4%, 55%);
@@ -82,7 +83,8 @@ textarea {
 body {
   background-color: var(--body-color);
   color: var(--text-color);
-  transition: 0.4s; /* for light mode animation */
+  transition: 0.4s;
+  /* for light mode animation */
 }
 
 h1,
@@ -183,6 +185,7 @@ body.light-theme {
 .light-theme::-webkit-scrollbar {
   background-color: hsl(var(--second-hue), 8%, 80%);
 }
+
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
   max-width: 968px;
@@ -280,9 +283,10 @@ body.light-theme {
 
 /* Active link */
 .active-link {
-  background: linear-gradient(90deg, rgba(50,35,125,1) 26%, rgba(45,56,201,1) 83%);;
+  background: linear-gradient(90deg, rgba(50, 35, 125, 1) 26%, rgba(45, 56, 201, 1) 83%);
+  ;
   box-shadow: 0 0 16px hsla(var(--first-hue), var(--sat), var(--lig), 0.4);
-  border-radius: 5rem;
+  border-radius: 10rem;
 
   color: var(--title-color);
 }
@@ -334,11 +338,9 @@ body.light-theme {
   justify-self: center;
   width: 230px;
   height: 293px;
-  background: linear-gradient(
-    180deg,
-    hsla(var(--first-hue), var(--sat), var(--lig), 0.5),
-    hsla(var(--first-hue), var(--sat), var(--lig), 0.1)
-  );
+  background: linear-gradient(180deg,
+      hsla(var(--first-hue), var(--sat), var(--lig), 0.5),
+      hsla(var(--first-hue), var(--sat), var(--lig), 0.1));
 
   border-radius: 5rem 1rem 5rem 1rem;
   display: flex;
@@ -629,6 +631,7 @@ body.light-theme {
   color: var(--first-color);
   cursor: pointer;
 }
+
 /*Active modal*/
 
 .active-modal {
@@ -836,6 +839,7 @@ body.light-theme {
 .contact__form-area textarea {
   resize: none;
 }
+
 /*=============== FOOTER ===============*/
 .footer {
   background-color: var(--first-color);
@@ -927,7 +931,7 @@ body.light-theme {
   }
 
   .home__img {
-    width: 530px;
+    width: 500px;
   }
 
   .about__info {
@@ -1055,6 +1059,7 @@ body.light-theme {
   .contact__form {
     width: 340px;
   }
+
   /* .contact__info {
     grid-template-columns: 350px;
     justify-content: center;
@@ -1103,28 +1108,28 @@ body.light-theme {
 
   .home__container {
     display: flex;
-    flex-direction: row; /* Membalik urutan elemen menjadi dari kanan ke kiri */
-    align-items: flex-start; /* Mengatur elemen berada di bagian atas */
+    flex-direction: row;
+    /* Membalik urutan elemen menjadi dari kanan ke kiri */
+    align-items: flex-start;
+    /* Mengatur elemen berada di bagian atas */
     row-gap: 4.5rem;
     padding-top: 2rem;
     justify-content: space-between;
   }
-  
+
   .home__data {
     text-align: left;
     margin-left: 10rem;
     margin-top: 6rem;
   }
-  
+
   .home__handle {
     margin-right: 50px;
     width: 300px;
     height: 400px;
-    background: linear-gradient(
-      180deg,
-      hsla(var(--first-hue), var(--sat), var(--lig), 0.5),
-      hsla(var(--first-hue), var(--sat), var(--lig), 0.1)
-    );
+    background: linear-gradient(180deg,
+        hsla(var(--first-hue), var(--sat), var(--lig), 0.5),
+        hsla(var(--first-hue), var(--sat), var(--lig), 0.1));
     border-radius: 10rem 1rem 10rem 1rem;
     overflow: hidden;
   }
@@ -1132,6 +1137,7 @@ body.light-theme {
   .home__img {
     width: 400px;
   }
+
   .home__social-link {
     padding: 0.4rem;
     font-size: 1.25rem;
@@ -1145,7 +1151,7 @@ body.light-theme {
     font-size: 2rem;
   }
 
-  
+
 
   .about__container {
     grid-template-columns: repeat(2, 1fr);
