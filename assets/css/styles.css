@@ -18,8 +18,8 @@
   --lig: 72%;
   --first-hue: 300;
   --second-hue: 219;
-  --first-color: #157a9b;
-  --first-color-alt: #1ab1aa;
+  --first-color: #065ecb;
+  --first-color-alt: #0071c3;
   /* -4% */
   --title-color: hsl(var(--second-hue), 15%, 95%);
   --text-color: hsl(var(--second-hue), 8%, 75%);
