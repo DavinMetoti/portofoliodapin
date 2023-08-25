@@ -6,11 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--=============== FAVICON ===============-->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/ico" sizes="32x32" href="assets/favicons/favicon-32x32.ico">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
-    <link rel="manifest" href="assets/favicons/site.webmanifest">
-    <link rel="mask-icon" href="assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
     <link rel="shortcut icon" href="assets/img/favicon.ico">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-config" content="assets/favicons/browserconfig.xml">
@@ -82,17 +77,17 @@
                 <div class="home__data">
                     <span class="home__greeting">Hello, I'm</span>
                     <h1 class="home__name">Davin Metoti</h1>
-                    <h3 class="home__education">Web Developer & IT Support</h3>
+                    <h3 class="home__education">Web Mobile Developer & IT Support</h3>
 
                     <div class="home__button">
-                        <a href="#" class="button button--ghost services__button">
+                        <a href="#" class="button button--ghost services__button" style="margin-right: 1rem;">
                             Download CV
                         </a>
                         <!-- <a download="" href="#" class="button button--ghost services__button">
                             Download CV
                         </a> -->
 
-                        <a href="#about" class="button">About</a>
+                        <a href="#about" class="shadow__btn">About</a>
                     </div>
                 </div>
 
@@ -117,8 +112,7 @@
                 </div>
 
                 <div class="home__social">
-                    <a href="https://www.linkedin.com/in/davin-metoti-190709241" target="_blank"
-                        class="home__social-link">
+                    <a href="https://www.linkedin.com/in/davinmetoti" target="_blank" class="home__social-link">
                         <i class='bx bxl-linkedin'></i>
                     </a>
                     <a href="https://github.com/DavinMetoti" target="_blank" class="home__social-link">
@@ -197,7 +191,16 @@
                                 <i class='bx bxs-badge-check'></i>
 
                                 <div>
-                                    <h3 class="skills__name">CSS/SCSS</h3>
+                                    <h3 class="skills__name">CSS</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">SCSS</h3>
                                     <span class="skills__level">Advanced</span>
                                 </div>
                             </div>
@@ -220,6 +223,14 @@
                                 </div>
                             </div>
 
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Dart</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
                         </div>
                         <div class="skills__group">
                             <div class="skills__data">
@@ -253,7 +264,25 @@
                                 <i class='bx bxs-badge-check'></i>
 
                                 <div>
+                                    <h3 class="skills__name">React.JS</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
                                     <h3 class="skills__name">Codeigniter</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Flutter</h3>
                                     <span class="skills__level">Intermediate</span>
                                 </div>
                             </div>
@@ -513,6 +542,62 @@
                     </div>
                 </div>
 
+                <div class="services__card">
+                    <div class="serv">
+                        <h3 class="services__title">Mobile <br> Development</h3>
+
+                        <span class="services__button">
+                            See More <i class='bx bx-right-arrow services__icon'></i>
+                        </span>
+                    </div>
+
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Mobile Development</h3>
+
+                            <p class="services__modal-description">
+                                Mobile development involves creating applications tailored for smartphones and tablets,
+                                encompassing the entire process from coding and testing to optimizing user experience.
+                                Developers use languages like Flutter, adapting to
+                                device-specific features and touch interactions.
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        I develop the user interfaces.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Mobile design and development.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        I create the UX element interactions.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Views are customized upon request.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
 
@@ -639,9 +724,9 @@
             <sapn class="section__subtitle">Get in touch</sapn>
             <h3 class="section__title">Contact Me</h3>
 
-            <div class="contact__container container grid">
+            <div class="contact__container container grid" style="display: flex;justify-content: center;">
                 <div class="contact__content">
-                    <h3 class="contact__title contact__title-info">Talk to me</h3>
+                    <!-- <h3 class="contact__title contact__title-info">Talk to me</h3> -->
 
                     <div class="contact__info">
                         <div class="contact__card">
@@ -677,7 +762,7 @@
                     </div>
                 </div>
 
-                <div class="contact__content">
+                <!-- <div class="contact__content">
                     <h3 class="contact__title contact__title-form">Write Me your Message</h3>
 
                     <form action="" class="contact__form">
@@ -703,7 +788,7 @@
                         </button>
                     </form>
 
-                </div>
+                </div> -->
 
         </section>
     </main>
@@ -744,8 +829,7 @@
                     </a>
                 </li> -->
                 <li class="footer__social-item">
-                    <a href="https://www.linkedin.com/in/davin-metoti-190709241" target="_blank"
-                        class="footer__social-link">
+                    <a href="https://www.linkedin.com/in/davinmetoti" target="_blank" class="footer__social-link">
                         <i class='bx bxl-linkedin footer__social-icon'></i>
                     </a>
                 </li>
