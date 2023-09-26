@@ -201,14 +201,14 @@ sr.reveal(`.work__card`, {
   delay: 100,
   scale: 0.9,
   origin: "top",
-  distance: "30px",
+  distance: "100px",
 });
 
 sr.reveal(`.testimonial__container`, {
   delay: 100,
   scale: 0.9,
   origin: "top",
-  distance: "30px",
+  distance: "60px",
 });
 
 sr.reveal(`.contact__info, .contact__title-info`, {
