@@ -323,7 +323,7 @@ body.light-theme {
   box-shadow: 0 0 16px hsla(var(--first-hue), var(--sat), var(--lig), 0.4);
   border-radius: 10rem;
   transform: translateY(-10px);
-  color: var(--title-color);
+  color: white;
 }
 
 /* Change background header */
