@@ -766,9 +766,9 @@ body.light-theme {
 }
 
 .testimonial__img {
-  width: 60px;
-  border-radius: 3rem;
-  margin-bottom: 1rem;
+  width: 100%;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
 }
 
 .testimonial__name {
