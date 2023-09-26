@@ -200,14 +200,14 @@ sr.reveal(`.services__title, services__button`, {
 sr.reveal(`.work__card`, {
   delay: 100,
   scale: 0.9,
-  origin: "bottom",
+  origin: "top",
   distance: "30px",
 });
 
 sr.reveal(`.testimonial__container`, {
   delay: 100,
   scale: 0.9,
-  origin: "bottom",
+  origin: "top",
   distance: "30px",
 });
 
