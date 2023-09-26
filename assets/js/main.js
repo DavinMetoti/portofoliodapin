@@ -62,7 +62,7 @@ workLinks.forEach((wl) => {
 /*=============== SWIPER TESTIMONIAL ===============*/
 
 let swiperTestimonial = new Swiper(".testimonial__container", {
-  spaceBetween: 24,
+  spaceBetween: 100,
   loop: true,
   grabCursor: true,
 
