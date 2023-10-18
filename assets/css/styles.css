@@ -1118,7 +1118,7 @@ path {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 434px) {
   .nav__menu {
     padding: 1rem 1.5rem;
   }
@@ -1170,8 +1170,8 @@ path {
   }
 
   .card-company {
-    max-width: 280px;
-    height: 18rem;
+    max-width: auto;
+    height: auto;
   }
 
   .card-company h3 {
@@ -1194,7 +1194,7 @@ path {
   .img-avatar {
     width: 60px;
     height: 60px;
-    left: 60px;
+    left: 65px;
   }
 
   .card-text {
@@ -1231,6 +1231,8 @@ path {
     font-size: 12px;
   }
 }
+
+
 
 @media screen and (min-width: 435px) {
   .work__container {
