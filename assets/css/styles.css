@@ -1170,21 +1170,21 @@ path {
   }
 
   .card-company {
-    max-width: 300px;
-    height: 15rem;
+    max-width: 280px;
+    height: 12rem;
   }
 
   .card-company h3 {
-    font-size: 0.7rem;
+    font-size: 0.5rem;
   }
 
   .card-company .title {
-    padding: 0.5rem;
-    font-size: 0.5rem;
+    padding: 0.2rem;
+    font-size: 0.4rem;
   }
 
   .card-company .desc {
-    font-size: 0.5rem;
+    font-size: 0.4rem;
   }
 
   .card-company .actions {
@@ -1192,9 +1192,9 @@ path {
   }
 
   .img-avatar {
-    width: 70px;
-    height: 70px;
-    left: 65px;
+    width: 60px;
+    height: 60px;
+    left: 60px;
   }
 
   .card-text {
@@ -1205,7 +1205,7 @@ path {
 
   .title-total {
     transition: 0.3s;
-    padding: 3.5em 1.5em 1.5em 1.5em;
+    padding: 4.5em 2.5em 1.5em 1.5em;
   }
 
   path {
