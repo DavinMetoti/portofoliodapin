@@ -1168,6 +1168,68 @@ path {
   .footer {
     margin: 0 10px 10px 10px;
   }
+
+  .card-company {
+    max-width: 300px;
+    height: 15rem;
+  }
+
+  .card-company h3 {
+    font-size: 0.7rem;
+  }
+
+  .card-company .title {
+    padding: 0.5rem;
+    font-size: 0.5rem;
+  }
+
+  .card-company .desc {
+    font-size: 0.5rem;
+  }
+
+  .card-company .actions {
+    padding: 0.5rem 0.5rem;
+  }
+
+  .img-avatar {
+    width: 70px;
+    height: 70px;
+    left: 65px;
+  }
+
+  .card-text {
+    transition: 0.3s;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .title-total {
+    transition: 0.3s;
+    padding: 3.5em 1.5em 1.5em 1.5em;
+  }
+
+  path {
+    fill: white;
+  }
+
+  .img-portada {
+    width: 100%;
+  }
+
+  .portada {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: var(--first-color-alt);
+    background-position: bottom center;
+    background-size: cover;
+  }
+
+  .button-85 {
+    padding: 5px 8px;
+    font-size: 12px;
+  }
 }
 
 @media screen and (min-width: 435px) {
@@ -1182,6 +1244,68 @@ path {
 
   .work__img {
     width: 165px;
+  }
+
+  .card-company {
+    max-width: 500px;
+    height: 15rem;
+  }
+
+  .card-company h3 {
+    font-size: 1rem;
+  }
+
+  .card-company .title {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+  }
+
+  .card-company .desc {
+    font-size: 0.7rem;
+  }
+
+  .card-company .actions {
+    padding: 0.5rem 0.5rem;
+  }
+
+  .img-avatar {
+    width: 95px;
+    height: 95px;
+    left: 75px;
+  }
+
+  .card-text {
+    transition: 0.3s;
+    display: grid;
+  }
+
+  .title-total {
+    transition: 0.3s;
+    padding: 3.5em 0.5em 1.5em 2.0em;
+  }
+
+  path {
+    fill: white;
+  }
+
+  .img-portada {
+    width: 100%;
+  }
+
+  .portada {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: var(--first-color-alt);
+    background-position: bottom center;
+    background-size: cover;
+  }
+
+  .button-85 {
+    padding: 5px 8px;
+    font-size: 12px;
+    text-align: center;
   }
 }
 
@@ -1283,6 +1407,7 @@ path {
     width: 360px;
     margin: 0 auto;
   } */
+
 }
 
 /* @media screen and (min-width: 767px) {
@@ -1466,4 +1591,5 @@ path {
   .footer {
     margin: 0 20px 20px 20px;
   }
+
 }
