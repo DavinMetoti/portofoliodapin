@@ -528,8 +528,8 @@ body.light-theme {
 
 .card-company {
   background: var(--container-color);
+  transition: 0.3s;
   border-radius: 4px;
-  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.5);
   max-width: 500px;
   height: 15rem;
   display: flex;
@@ -558,10 +558,10 @@ body.light-theme {
 
 .card-company .actions {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
   align-items: center;
   padding: 0.5rem 1rem;
 }
+
 
 
 .img-avatar {
@@ -570,17 +570,20 @@ body.light-theme {
   position: absolute;
   border-radius: 50%;
   border: 6px solid var(--container-color);
+  transition: 0.3s;
   background-image: linear-gradient(-60deg, #16a085 0%, #f4d03f 100%);
   top: 15px;
   left: 85px;
 }
 
 .card-text {
+  transition: 0.3s;
   display: grid;
   grid-template-columns: 1fr 2fr;
 }
 
 .title-total {
+  transition: 0.3s;
   padding: 3.5em 1.5em 1.5em 1.5em;
 }
 
@@ -600,6 +603,73 @@ path {
   background-color: var(--first-color-alt);
   background-position: bottom center;
   background-size: cover;
+}
+
+.button-85 {
+  padding: 0.3em 1em;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-85:before {
+  content: "";
+  background: linear-gradient(45deg,
+      #ff0000,
+      #ff7300,
+      #fffb00,
+      #48ff00,
+      #00ffd5,
+      #002bff,
+      #7a00ff,
+      #ff00c8,
+      #ff0000);
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-button-85 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing-button-85 {
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 400% 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.button-85:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #222;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
 }
 
 .skills__title {
