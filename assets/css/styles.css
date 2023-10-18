@@ -1407,7 +1407,11 @@ path {
     width: 360px;
     margin: 0 auto;
   } */
-
+  .img-avatar {
+    width: 95px;
+    height: 95px;
+    left: 85px;
+  }
 }
 
 /* @media screen and (min-width: 767px) {
@@ -1590,6 +1594,18 @@ path {
 
   .footer {
     margin: 0 20px 20px 20px;
+  }
+
+  .img-avatar {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 50%;
+    border: 6px solid var(--container-color);
+    transition: 0.3s;
+    background-image: linear-gradient(-60deg, #16a085 0%, #f4d03f 100%);
+    top: 15px;
+    left: 100px;
   }
 
 }
