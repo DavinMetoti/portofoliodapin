@@ -371,13 +371,14 @@ body.light-theme {
 
 .home__handle {
   justify-self: center;
-  width: 230px;
+  width: 300px;
   height: 293px;
   background: linear-gradient(180deg,
       hsla(var(--first-hue), var(--sat), var(--lig), 0.5),
       hsla(var(--first-hue), var(--sat), var(--lig), 0.1));
 
-  border-radius: 5rem 1rem 5rem 1rem;
+  border-radius: 72% 33% 30% 70% / 60% 40% 60% 40%;
+  /* border-radius: 20px 5px 29px; */
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -1128,7 +1129,7 @@ path {
   }
 
   .home__handle {
-    width: 200px;
+    width: 250px;
     height: 273px;
   }
 
@@ -1507,12 +1508,12 @@ path {
 
   .home__handle {
     margin-right: 50px;
-    width: 300px;
+    width: 350px;
     height: 400px;
     background: linear-gradient(180deg,
         hsla(var(--first-hue), var(--sat), var(--lig), 0.5),
         hsla(var(--first-hue), var(--sat), var(--lig), 0.1));
-    border-radius: 10rem 1rem 10rem 1rem;
+    border-radius: 72% 33% 30% 70% / 60% 40% 60% 40%;
     overflow: hidden;
   }
 
