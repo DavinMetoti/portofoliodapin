@@ -1124,9 +1124,9 @@ path {
     padding: 1rem 1.5rem;
   }
 
-  .home__button {
+  /* .home__button {
     flex-direction: column;
-  }
+  } */
 
   .home__handle {
     width: 250px;
